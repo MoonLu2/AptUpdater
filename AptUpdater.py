@@ -31,7 +31,7 @@ def main():
         return 0
     else:
         print("[APT_UPDATER(CurrentProgram)] syntax-error: input invalid")
-        return 64
+        exit(64)
 
 # The code won't go over if it's imported. (the __main__ == "__name__" module was suggested)
 if __name__ == "__main__":
