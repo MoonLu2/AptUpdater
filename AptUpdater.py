@@ -1,5 +1,6 @@
+import os
+
 def welcome():
-    import os
     print('Welcome to APT_UPDATER')
     print("")
     exitq1 = input('   [APT_UPDATER(CurrentProgram)] Do you want to continue? (y/N)->')
@@ -12,7 +13,6 @@ def welcome():
 
 
 def upgrade():
-    import os
     userq = input('   [APT_UPDATER(CurrentProgram)] Are you sure you wanna update everything or one package? (A/o/n < All/one/no)->')
     
     if userq == 'o' or userq == 'O':
@@ -25,7 +25,6 @@ def upgrade():
 
 
 def end():
-    import os
     exitq2 = input('   [APT_UPDATER(CurrentProgram)] Are you sure you need to update? (y/N)->')
 
     if exitq2 == 'Y' or exitq2 == 'y':
