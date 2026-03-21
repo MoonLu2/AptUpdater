@@ -49,4 +49,4 @@ if __name__ == "__main__":
     upgrade()
     exit(end())
 else:
-    print(f'''execution-err in {__name__}, this code was not intented for 'import'.''')
+    print(f'''execution-err in {__name__}, this code was not intended for 'import'.''')
